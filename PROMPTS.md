@@ -11,3 +11,4 @@
 - should i select header and nav tags directly from my css file? or add ids to them and select using ids?
 - how and where (in which css file) should i organize reusable things like buttons, and how to name the classes?
 - should i use .container in bem methodology for setting max-width? if yes, in which level in the html sections do i apply it?
+- what's the best way to add a full width hero image and a semi-transparent overlay over it below hero content? should i use html or css to add the image?
