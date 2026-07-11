@@ -1,5 +1,26 @@
-* {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--blue-primary);
+	transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+	color: var(--blue-dark);
+}
+
+ol,
+ul {
+	list-style: none;
 }

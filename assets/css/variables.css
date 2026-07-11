@@ -1,0 +1,15 @@
+:root {
+	--blue-primary: #1d4ed8;
+	--blue-dark: #0d1b2a;
+	--blue-light: #93c5fd;
+
+	--neutral-0: #ffffff;
+	--neutral-1: #f8f9fb;
+	--neutral-2: #e5e7eb;
+	--neutral-5: #888888;
+	--neutral-6: #575757;
+	--neutral-7: #333333;
+	--neutral-9: #000000;
+
+	--border-color: var(var(--neutral-2));
+}
