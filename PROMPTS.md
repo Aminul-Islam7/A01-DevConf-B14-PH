@@ -2,7 +2,7 @@
 
 # Other Prompts I Used for Learning / Assistance during The Project
 
-**Tool used:** Gemini
+**Tool used:** Gemini, Google Search (AI Mode)
 
 - I'm about to convert this design to an html css webpage for practice. how do i name the classes for each div of each section to keep it organized? what are the industry standards? how should i think when I need to name a class? should i follow any methodology as a beginner in html-css?
 - i am only using html and css. and i'll also have images in the repo. what should be the file structure. i want to apply the industry standard practices even for this small project.
@@ -12,3 +12,4 @@
 - how and where (in which css file) should i organize reusable things like buttons, and how to name the classes?
 - should i use .container in bem methodology for setting max-width? if yes, in which level in the html sections do i apply it?
 - what's the best way to add a full width hero image and a semi-transparent overlay over it below hero content? should i use html or css to add the image?
+- is there any css technique to use a defined variable color and use it's lighten or darkened version for hover effect

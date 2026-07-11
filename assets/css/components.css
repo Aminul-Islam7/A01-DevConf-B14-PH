@@ -30,3 +30,9 @@
 	background-color: color-mix(in srgb, var(--blue-primary), rgba(255, 255, 255, 0.1) 90%);
 	color: var(--blue-primary);
 }
+
+.section-title {
+	text-align: center;
+	margin: 10px 0;
+	font-size: 2.5rem;
+}

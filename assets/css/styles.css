@@ -54,3 +54,54 @@
 .hero__cta {
 	padding: 16px 50px;
 }
+
+/* Speakers Section */
+
+.speakers {
+	padding: 50px 0;
+}
+
+.speakers__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	margin-top: 40px;
+}
+
+.speaker-card {
+	border: 1px solid var(--border-color);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.speaker-card__image {
+	height: 350px;
+	overflow: hidden;
+}
+
+.speaker-card__image img {
+	width: 100%;
+}
+
+.speaker-card__details {
+	padding: 24px;
+}
+
+.speaker-card__category {
+	color: var(--blue-primary);
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.75rem;
+}
+
+.speaker-card__name {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: var(--blue-dark);
+	margin: 10px 0;
+}
+
+.speaker-card__role {
+	font-size: 0.9rem;
+	color: var(--neutral-6);
+}
