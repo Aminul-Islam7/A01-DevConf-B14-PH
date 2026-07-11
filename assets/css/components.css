@@ -16,7 +16,17 @@
 	color: var(--neutral-1);
 }
 
+.btn--primary:hover {
+	background-color: color-mix(in srgb, var(--blue-primary), black 16%);
+	color: var(--neutral-1);
+}
+
 .btn--outline {
 	color: var(--blue-primary);
 	border-color: var(--blue-primary);
+}
+
+.btn--outline:hover {
+	background-color: color-mix(in srgb, var(--blue-primary), rgba(255, 255, 255, 0.1) 90%);
+	color: var(--blue-primary);
 }
