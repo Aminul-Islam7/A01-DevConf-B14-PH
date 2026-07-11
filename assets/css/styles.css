@@ -17,3 +17,40 @@
 	padding: 8px 16px;
 	color: var(--neutral-6);
 }
+
+/* Hero Section */
+.hero {
+	padding: 100px 0;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+		url('../images/banner.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.hero .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__text {
+	max-width: 850px;
+	text-align: center;
+}
+
+.hero__title {
+	color: var(--neutral-0);
+	font-size: 4.8em;
+	margin-bottom: 20px;
+}
+
+.hero__subtitle {
+	font-size: 1.2rem;
+	color: var(--neutral-0);
+	opacity: 0.9;
+	margin-bottom: 250px;
+}
+
+.hero__cta {
+	padding: 16px 50px;
+}
